@@ -3,8 +3,8 @@ import express from 'express'
 import { createHttpTaskWithToken } from './createTask'
 
 const QUEUE_NAME = 'simple-cloudtask';
-const QUEUE_LOCATION= 'asia-northeast1';
-const FUNCTION_URL= 'cloud runのURLを設定';
+const QUEUE_LOCATION = 'asia-northeast1';
+const FUNCTION_URL = 'cloud runのURLを設定';
 const GOOGLE_CLOUD_PROJECT = 'PROJECT IDを設定'
 const SERVER_PORT = '8080'
 
