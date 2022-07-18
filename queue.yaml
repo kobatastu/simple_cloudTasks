@@ -1,0 +1,4 @@
+queue:
+  - name: simple-cloudtask
+    bucket_size: 10
+    rate: 5/s
