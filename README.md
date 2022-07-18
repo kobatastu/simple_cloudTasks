@@ -7,6 +7,7 @@ cloudbuild.yamlのPROJECT_ID、IMAGE_NAME、SERVICE_NAMEを自分のプロジェ
 ```
 npm i
 npm run deploy
+npm run que-deploy
 ```
 
 デプロイし終わった後、${FUNCTION_URL}/enqueue-taskを叩くことで、cloudTasksにタスクがエンキューされ、タスクハンドラーが処理を進める
